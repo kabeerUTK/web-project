@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+<nav> 
+    <a href="index.html">
+  <img src="images/logo.png" alt="College Logo">
+</a>
+
+<!-- Close Button (X icon for mobile) --> 
+ 
+<div class="nav-links" id="navLinks"> 
+
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+   <!-- Navigation Menu -->
+
+  <ul>
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT</a></li>
+    <li><a href="">COURSE</a></li>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT</a></li>
+  <li><a href="">APPLY</a></li>
+  </ul>
+</div>
+<i class="fa fa-bars"  onclick="showMenu()"></i>
+
+    </nav>
+    <div class="text-box">
+        <h1>
+         KHUSAL KHAN KHATTAK DEGREE COLLEGE  <br>
+        </h1>
+        <P>
+         <h3>  Khushal Khan Khattak Degree College is a reputable institution dedicated to academic excellence and holistic student development.<br>
+Named after the legendary Pashto poet and warrior, the college upholds a legacy of cultural pride and intellectual pursuit.<br>
+With a committed faculty and modern facilities, it offers quality education across various disciplines.<br>
+The college fosters critical thinking, discipline, and leadership among its students. </h3> 
+
+        </P>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+
+    </div>
+    </section>
+
+
+    
+<!------------ COURSES WE OFFERS------->    
+  
+<h1>Courses We Offer</h1>
+
+<section class="row">
+ 
+
+  <div class="course-col">
+    <h3>BS Computer Science</h3>
+    <p>
+     The BS Computer Science program at GDCKKK focuses on programming, data structures, and emerging technologies.
+It equips students with the skills needed for software development, research, and IT industry careers. 
+    </p>
+  </div>
+<div class="course-col">
+  <h3>BS Economics</h3>
+  <p>The BS Economics program provides a strong foundation in microeconomics, macroeconomics, and data analysis.
+Students gain analytical and decision-making skills essential for roles in finance, policy, and research.</p>
+</div>
+  <div class="course-col">
+    <h3>College-Level Courses</h3>
+    <p>
+      At the intermediate level, the college provides Arts and Science courses including Biology and Computer Science.
+      These courses prepare students for higher education and develop core subject knowledge.
+    </p>
+  </div>
+</section>
+
+    </section>
+
+    <!---------javaScript for Menu-------->
+    <script>
+  var navLinks = document.getElementById('navLinks');
+ 
+
+  function showMenu() {
+    navLinks.style.right="0";
+  }
+  function hideMenu() {
+    navLinks.style.right="-200px";
+  }
+
+  closeBtn.addEventListener('click', function () {
+    navLinks.classList.remove('show');
+  });
+</script>
+
+
+</body>
+</html>
