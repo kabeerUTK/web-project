@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+<nav> 
+    <a href="index.html">
+  <img src="images/logo.png" alt="College Logo">
+</a>
+
+<!-- Close Button (X icon for mobile) --> 
+ 
+<div class="nav-links" id="navLinks"> 
+
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+   <!-- Navigation Menu -->
+
+  <ul>
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT</a></li>
+    <li><a href="">COURSE</a></li>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT</a></li>
+  <li><a href="">APPLY</a></li>
+  </ul>
+</div>
+<i class="fa fa-bars"  onclick="showMenu()"></i>
+
+    </nav>
+    <h1> <h1>Contact Us</h1>
+ </h1>
+    </section>
+
+
+   <!---------contact us-------->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.6142405245737!2d72.1126467!3d34.002441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ded0ec07c99569%3A0x9c0258fdaf34d9be!2sGovernment%20Khushal%20Khan%20Khattak%20Degree%20College!5e0!3m2!1sen!2s!4v1748862598666!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+  </section>
+
+  
+<!---------contact us-------->
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa-solid fa-house"></i>
+        <span>
+          <h5>GT ROAD, AKORA KHATTAK</h5>
+          <p>Located on GT Road, Akora Khattak, GDCKKK is easily accessible and situated in a peaceful,<br> academic-friendly environment.
+             The campus offers convenient access for local students and visitors alike.</p>
+        </span>
+      </div>
+      <div class="contact-col">
+      <i class="fa-solid fa-phone"></i>
+      <span>
+        <h5>+923433333333</h5>
+        <p>Monday To Saturday 9AM to 2PM</p>
+      </span>
+     
+    </div>
+     <div class="contact-col">
+      <i class="fa-solid fa-envelope"></i>
+      <span>
+        <h5>khushalcollage@gmail.com</h5>
+        <p>Email Us Your Query</p>
+      </span>
+    </div>
+    </div>
+  </div>
+</section>
+
+ 
+<!---------Footer-------->
+
+<section class="footer">
+  <h4>About Us </h4>
+  <p>
+     GDCKKK is committed to providing quality education and fostering a culture of academic excellence. <br>
+  Our mission is to empower students with knowledge, skills, and values for a successful future.
+</p>
+<div class="icon">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+</div>
+
+   <p>
+    Made with <i class="fa-regular fa-heart"></i> by GDCKKK
+  </p>
+
+</section>
+
+    <!---------javaScript for Menu-------->
+    <script>
+  var navLinks = document.getElementById('navLinks');
+ 
+
+  function showMenu() {
+    navLinks.style.right="0";
+  }
+  function hideMenu() {
+    navLinks.style.right="-200px";
+  }
+
+  closeBtn.addEventListener('click', function () {
+    navLinks.classList.remove('show');
+  });
+</script>
+
+
+</body>
+</html>

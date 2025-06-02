@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+<nav> 
+    <a href="index.html">
+  <img src="images/logo.png" alt="College Logo">
+</a>
+
+<!-- Close Button (X icon for mobile) --> 
+ 
+<div class="nav-links" id="navLinks"> 
+
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+   <!-- Navigation Menu -->
+
+  <ul>
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT</a></li>
+    <li><a href="">COURSE</a></li>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT</a></li>
+  <li><a href="">APPLY</a></li>
+  </ul>
+</div>
+<i class="fa fa-bars"  onclick="showMenu()"></i>
+
+    </nav>
+    <h1> About Courses </h1>
+    </section>
+
+
+   <!---------courses-------->
+ 
+<h1>Courses We Offer</h1>
+
+<section class="row">
+ 
+
+  <div class="course-col">
+    <h3>BS Computer Science</h3>
+    <p>
+     The BS Computer Science program at GDCKKK focuses on programming, data structures, and emerging technologies.
+It equips students with the skills needed for software development, research, and IT industry careers. 
+    </p>
+  </div>
+<div class="course-col">
+  <h3>BS Economics</h3>
+  <p>The BS Economics program provides a strong foundation in microeconomics, macroeconomics, and data analysis.
+Students gain analytical and decision-making skills essential for roles in finance, policy, and research.</p>
+</div>
+  <div class="course-col">
+    <h3>College-Level Courses</h3>
+    <p>
+      At the intermediate level, the college provides Arts and Science courses including Biology and Computer Science.
+      These courses prepare students for higher education and develop core subject knowledge.
+    </p>
+  </div>
+</section>
+
+  
+<!---------Facilities--------> 
+
+
+
+   <section class="facilities">
+     <h1>Our Facilities</h1>
+     <p>GDCKKK provides modern facilities including a well-stocked library, spacious playground, hygienic cafeteria, and fully equipped science and computer labs.
+These amenities ensure a balanced academic and co-curricular experience for students.
+</p>
+<div class="row">
+  <div class="facilities-col">
+    <img src="images/library.jpg">
+    <h3>GDCKKK Library</h3>
+    <p>Our college library offers a rich collection of books, journals, and digital resources to support students' academic needs.
+It provides a quiet and comfortable environment ideal for focused study and research.
+</p>
+  </div>  
+   <div class="facilities-col">
+    <img src="images/Cafeteria.jpg">
+    <h3>GDCKKK Cafeteria</h3>
+    <p>The GDCKKK cafeteria offers clean, affordable, and nutritious meals in a friendly atmosphere.
+It's a popular spot for students to relax, socialize, and recharge between classes.
+</p>
+</div>
+<div class="facilities-col">
+    <img src="images/computer_lab.jpg">
+    <h3>GDCKKK Computer Lab</h3>
+    <p>GDCKKK’s computer lab is equipped with modern systems and internet access for hands-on learning.
+It supports students in developing essential IT and research skills.
+</p>
+  </div>
+</div>
+   </section>
+
+
+<!---------Footer-------->
+
+<section class="footer">
+  <h4>About Us </h4>
+  <p>
+     GDCKKK is committed to providing quality education and fostering a culture of academic excellence. <br>
+  Our mission is to empower students with knowledge, skills, and values for a successful future.
+</p>
+<div class="icon">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+</div>
+
+   <p>
+    Made with <i class="fa-regular fa-heart"></i> by GDCKKK
+  </p>
+
+</section>
+
+    <!---------javaScript for Menu-------->
+    <script>
+  var navLinks = document.getElementById('navLinks');
+ 
+
+  function showMenu() {
+    navLinks.style.right="0";
+  }
+  function hideMenu() {
+    navLinks.style.right="-200px";
+  }
+
+  closeBtn.addEventListener('click', function () {
+    navLinks.classList.remove('show');
+  });
+</script>
+
+
+</body>
+</html>

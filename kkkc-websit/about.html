@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+<nav> 
+    <a href="index.html">
+  <img src="images/logo.png" alt="College Logo">
+</a>
+
+<!-- Close Button (X icon for mobile) --> 
+ 
+<div class="nav-links" id="navLinks"> 
+
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+   <!-- Navigation Menu -->
+
+  <ul>
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT</a></li>
+    <li><a href="">COURSE</a></li>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT</a></li>
+  <li><a href="">APPLY</a></li>
+  </ul>
+</div>
+<i class="fa fa-bars"  onclick="showMenu()"></i>
+
+    </nav>
+    <h1> About Us </h1>
+    </section>
+
+
+   <!---------about us content-------->
+
+   <div class="about-us">
+  <div class="row">
+    
+    <div class="about-col">
+      <h1>One of the Leading Degree Colleges in the Region</h1>
+      <p>
+        Khushal Khan Khattak Degree College (GDCKKK) is a premier institution dedicated to academic excellence and character building.  
+        We offer a wide range of programs designed to equip students with knowledge, skills, and confidence for future success.  
+        Our experienced faculty, modern facilities, and supportive environment create the ideal setting for learning and growth.  
+        GDCKKK continues to inspire students to become responsible, educated citizens and future leaders.
+      </p>
+     <a href="" class="hero-btn">EXPLORE NOW</a>
+    </div>
+    
+    <div class="about-col">
+      <img src="images/about.jpg" alt="About GDCKKK">
+    </div>
+
+  </div>
+</div>
+
+
+<!---------Footer-------->
+
+<section class="footer">
+  <h4>About Us </h4>
+  <p>
+     GDCKKK is committed to providing quality education and fostering a culture of academic excellence. <br>
+  Our mission is to empower students with knowledge, skills, and values for a successful future.
+</p>
+<div class="icon">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+</div>
+
+   <p>
+    Made with <i class="fa-regular fa-heart"></i> by GDCKKK
+  </p>
+
+</section>
+
+    <!---------javaScript for Menu-------->
+    <script>
+  var navLinks = document.getElementById('navLinks');
+ 
+
+  function showMenu() {
+    navLinks.style.right="0";
+  }
+  function hideMenu() {
+    navLinks.style.right="-200px";
+  }
+
+  closeBtn.addEventListener('click', function () {
+    navLinks.classList.remove('show');
+  });
+</script>
+
+
+</body>
+</html>

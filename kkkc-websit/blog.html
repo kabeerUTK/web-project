@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+<nav> 
+    <a href="index.html">
+  <img src="images/logo.png" alt="College Logo">
+</a>
+
+<!-- Close Button (X icon for mobile) --> 
+ 
+<div class="nav-links" id="navLinks"> 
+
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+   <!-- Navigation Menu -->
+
+  <ul>
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT</a></li>
+    <li><a href="">COURSE</a></li>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT</a></li>
+  <li><a href="">APPLY</a></li>
+  </ul>
+</div>
+<i class="fa fa-bars"  onclick="showMenu()"></i>
+
+    </nav>
+    <h1> <h1>Recognized Certificates and Flexible Online Learning</h1>
+ </h1>
+    </section>
+
+
+   <!---------blog page content-------->
+
+  
+ 
+   <section class="blog-content">
+    <div class="row">
+
+    <div class="left">
+      <img src="images/certificate.jpg">
+      <h2>Our Certificates & Online Programs For 2025</h2>
+      <p>At GDCKKK, we take pride in delivering academic programs that not only meet educational standards but also align with real-world demands.
+         Our curriculum is designed to cultivate analytical thinking, problem-solving abilities, 
+         and leadership skills.
+         Whether through traditional classroom instruction or modern online modules,
+         we ensure students are equipped with the tools needed to excel in both academic and professional arenas. 
+         The integration of technology, research-based learning, and faculty mentorship further enhances the academic experience. 
+         Our mission is to produce graduates who are not only knowledgeable
+          but also capable of adapting to dynamic global challenges
+         </p>
+         <br>
+         <p>Our certificate programs offer specialized training that bridges the gap between foundational education and industry expectations.
+           These programs are carefully structured to provide hands-on experience, practical knowledge, and sector-specific competencies.
+            From computer science to business studies, each certification reflects a commitment to skill-based learning and employability.
+             Students benefit from interactive coursework, expert instruction, and resources that foster independent study and collaboration.
+              With recognized credentials and a practical learning approach, our certificate holders are well-positioned to pursue diverse
+               career opportunities or continue into advanced studies.
+        </p>
+        <br>
+        <p>Recognizing the evolving needs of learners in today’s digital era, GDCKKK offers flexible and accessible online programs.
+           These courses are tailored for students who seek quality education while balancing personal or professional responsibilities.
+            With asynchronous lectures, virtual discussion forums, and real-time instructor support, our online programs replicate the rigor
+             and engagement of on-campus classes. Learners can access high-quality content, participate in assessments, and receive guidance
+              from faculty—all from the convenience of their own environment. This digital learning model empowers 
+              students to take ownership of their education, regardless of location.</p>
+              <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                  <input type="text" placeholder="Enter Name">
+                  <input type="email" placeholder="Enter Email">
+                  <textarea rows="5" placeholder="Your Comment">
+                  </textarea>
+                  <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+              </div>
+
+    </div>
+    <div class="right">
+      <h3>Post Categories</h3>
+      <div>
+      </div>
+      <div>
+  <span>Academic Updates</span>
+</div>
+<div>
+  <span>Admissions & Scholarships</span>
+</div>
+<div>
+  <span>Campus News</span>
+</div>
+<div>
+  <span>Online Learning</span>
+</div>
+<div>
+  <span>Student Achievements</span>
+</div>
+<div>
+  <span>Tech & Innovation</span>
+</div>
+<div>
+  <span>Career Guidance</span>
+</div>
+<div>
+  <span>Library Resources</span>
+</div>
+
+    </div>
+    
+  </div>
+
+    </section>
+<!---------Footer-------->
+
+<section class="footer">
+  <h4>About Us </h4>
+  <p>
+     GDCKKK is committed to providing quality education and fostering a culture of academic excellence. <br>
+  Our mission is to empower students with knowledge, skills, and values for a successful future.
+</p>
+<div class="icon">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+</div>
+
+   <p>
+    Made with <i class="fa-regular fa-heart"></i> by GDCKKK
+  </p>
+
+</section>
+
+    <!---------javaScript for Menu-------->
+    <script>
+  var navLinks = document.getElementById('navLinks');
+ 
+
+  function showMenu() {
+    navLinks.style.right="0";
+  }
+  function hideMenu() {
+    navLinks.style.right="-200px";
+  }
+
+  closeBtn.addEventListener('click', function () {
+    navLinks.classList.remove('show');
+  });
+</script>
+
+
+</body>
+</html>
